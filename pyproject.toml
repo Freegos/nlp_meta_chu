@@ -1,0 +1,17 @@
+[project]
+name = "m2-nlp-meta-chu-version-finale"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Adrien Albaladejo", email = "adrien.albaladejo@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+m2-nlp-meta-chu-version-finale = "m2_nlp_meta_chu_version_finale:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
