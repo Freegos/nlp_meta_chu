@@ -7,7 +7,15 @@ authors = [
     { name = "Adrien Albaladejo", email = "adrien.albaladejo@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.9.1",
+    "vadersentiment>=3.3.2",
+]
 
 [project.scripts]
 m2-nlp-meta-chu-version-finale = "m2_nlp_meta_chu_version_finale:main"
