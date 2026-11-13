@@ -14,3 +14,4 @@ wheels/
 
 # Donnees (volumineuses, non versionnees)
 data/
+.DS_Store
