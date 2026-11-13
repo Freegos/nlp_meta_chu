@@ -1,10 +1,9 @@
 # %% [markdown]
-# # PubMed CHU de Rennes : évolution dans le temps + auteurs (genre, position)
+# # PubMed France : évolution dans le temps + auteurs (genre, position)
 # Version allégée : pas de spaCy, pas d'embeddings, pas de LDA/UMAP/HDBSCAN/RAG.
-# Tourne en quelques dizaines de secondes.
 #
 # Installation :  uv add pandas scikit-learn matplotlib gender-guesser
-# Lancer avec  :  uv run python NLP_simple.py     (graphiques dans figures/)
+# Lancer avec  :  uv run python NLP.py     (graphiques dans figures/)
 #
 # Contenu :
 #   1. Chargement / nettoyage / année
