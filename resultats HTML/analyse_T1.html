@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Analyse NMF - T1: cells, cell, expression</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; color: #1e293b; max-width: 920px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+  .header { background: #0f172a; color: white; padding: 28px 32px; border-radius: 14px; margin-bottom: 24px; }
+  .header .tag { text-transform: uppercase; font-size: 12px; letter-spacing: 1px; color: #38bdf8; font-weight: 700; }
+  .header h1 { margin: 6px 0 14px 0; font-size: 26px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .badge { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .badge.tfidf { background: rgba(255,255,255,0.12); color: #e2e8f0; }
+  .badge.methode { background: #e0f2fe; color: #0369a1; }
+  .synthese { background: white; padding: 24px 28px; border-radius: 12px; border-left: 5px solid #0284c7; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 28px; }
+  .synthese h2 { margin-top: 0; font-size: 18px; color: #0f172a; }
+  .card { background: white; padding: 20px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 16px; border: 1px solid #e2e8f0; }
+  .card-header { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+  .rank { background: #0f172a; color: white; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+  .year { background: #f1f5f9; color: #334155; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+  .score { margin-left: auto; }
+  .card h3 { margin: 4px 0 10px 0; font-size: 17px; color: #0f172a; }
+  .card p { margin: 0; color: #334155; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">T1: cells, cell, expression &bull; PubMed France (1955-2026)</div>
+    <h1>Signalisation cellulaire et prolifération endothéliale</h1>
+    <div class="badges"><span class="badge tfidf">cells</span><span class="badge tfidf">cell</span><span class="badge tfidf">expression</span><span class="badge tfidf">induced</span><span class="badge tfidf">receptor</span><span class="badge tfidf">activity</span><span class="badge tfidf">human</span><span class="badge tfidf">activation</span></div>
+  </div>
+  <div class="synthese">
+    <h2>Synthèse scientifique du thème</h2>
+    <p>Ces articles explorent les mécanismes moléculaires et les voies de signalisation intracellulaire régissant l&#x27;activation, la prolifération et l&#x27;apoptose des cellules endothéliales et hypophysaires. À travers l&#x27;étude de récepteurs membranaires (facteurs de croissance, cytokines, hormones), les travaux mettent en évidence l&#x27;implication de voies clés telles que MAPK, PI3K/Akt, la phospholipase D et les flux calciques dans la réponse cellulaire et le maintien de la barrière hémato-encéphalique.</p>
+    <div class="badges"><span class="badge methode">Voies de signalisation intracellulaire (MAPK, PI3K/Akt)</span><span class="badge methode">Activation et prolifération cellulaire</span><span class="badge methode">Récepteurs membranaires et cytokines</span><span class="badge methode">Flux calciques et canaux ioniques</span><span class="badge methode">Modèles cellulaires in vitro (cellules endothéliales, lignées hypophysaires)</span></div>
+  </div>
+  <h2>Top 5 des articles les plus significatifs</h2>
+  
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#1</span>
+            <span class="year">1993</span>
+            <span class="score">Poids NMF : <strong>0.0367</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Modulation of human endothelial cell activation by antiproliferative cytokines: exploration of arachidonic acid and intracellular cytokine pathways as possible mechanisms of action.</h3>
+        <p>Compare l&#x27;effet de cytokines et du facteur MECIF sur l&#x27;activation et la prolifération des cellules endothéliales humaines, suggérant l&#x27;implication de la voie de l&#x27;acide arachidonique.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#2</span>
+            <span class="year">2001</span>
+            <span class="score">Poids NMF : <strong>0.0333</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Identification of membrane calcium channels essential for cytoplasmic and nuclear calcium elevations induced by vascular endothelial growth factor in human endothelial cells.</h3>
+        <p>Démontre que le VEGF active des canaux calciques membranaires via l&#x27;IP3, augmentant le calcium cytosolique et nucléaire pour réguler l&#x27;expression génique et la prolifération.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#3</span>
+            <span class="year">2004</span>
+            <span class="score">Poids NMF : <strong>0.0329</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>The luteinizing hormone-releasing hormone inhibits the anti-apoptotic activity of insulin-like growth factor-1 in pituitary alphaT3 cells by protein kinase Calpha-mediated negative regulation of Akt.</h3>
+        <p>Met en évidence des interactions croisées entre les récepteurs de la LHRH et de l&#x27;IGF-1 dans les cellules hypophysaires, impliquant la protéine kinase Calpha et la voie Akt.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#4</span>
+            <span class="year">2017</span>
+            <span class="score">Poids NMF : <strong>0.0329</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Regulation of Tight-Junction Integrity by Insulin in an In Vitro Model of Human Blood-Brain Barrier.</h3>
+        <p>Montre que l&#x27;insuline régule la prolifération et renforce l&#x27;intégrité des jonctions serrées de la barrière hémato-encéphalique via les voies PI3K/Akt et MAPK.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#5</span>
+            <span class="year">2005</span>
+            <span class="score">Poids NMF : <strong>0.0327</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Contribution of phospholipase D in endothelin-1-mediated extracellular signal-regulated kinase activation and proliferation in rat uterine leiomyoma cells.</h3>
+        <p>Prouve que l&#x27;endothéline-1 stimule la prolifération des cellules de léïomyome utérin via une activation de la phospholipase D et de la voie ERK.</p>
+    </div>
+    
+</body>
+</html>

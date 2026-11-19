@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Analyse NMF - T3: 95, age, risk</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; color: #1e293b; max-width: 920px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+  .header { background: #0f172a; color: white; padding: 28px 32px; border-radius: 14px; margin-bottom: 24px; }
+  .header .tag { text-transform: uppercase; font-size: 12px; letter-spacing: 1px; color: #38bdf8; font-weight: 700; }
+  .header h1 { margin: 6px 0 14px 0; font-size: 26px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .badge { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .badge.tfidf { background: rgba(255,255,255,0.12); color: #e2e8f0; }
+  .badge.methode { background: #e0f2fe; color: #0369a1; }
+  .synthese { background: white; padding: 24px 28px; border-radius: 12px; border-left: 5px solid #0284c7; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 28px; }
+  .synthese h2 { margin-top: 0; font-size: 18px; color: #0f172a; }
+  .card { background: white; padding: 20px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 16px; border: 1px solid #e2e8f0; }
+  .card-header { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+  .rank { background: #0f172a; color: white; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+  .year { background: #f1f5f9; color: #334155; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+  .score { margin-left: auto; }
+  .card h3 { margin: 4px 0 10px 0; font-size: 17px; color: #0f172a; }
+  .card p { margin: 0; color: #334155; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">T3: 95, age, risk &bull; PubMed France (1955-2026)</div>
+    <h1>Épidémiologie clinique et facteurs de risque</h1>
+    <div class="badges"><span class="badge tfidf">95</span><span class="badge tfidf">age</span><span class="badge tfidf">risk</span><span class="badge tfidf">10</span><span class="badge tfidf">mean</span><span class="badge tfidf">higher</span><span class="badge tfidf">12</span><span class="badge tfidf">respectively</span></div>
+  </div>
+  <div class="synthese">
+    <h2>Synthèse scientifique du thème</h2>
+    <p>Ce corpus regroupe de grandes études observationnelles de cohortes prospectives et des essais cliniques randomisés évaluant l&#x27;impact de déterminants démographiques, comportementaux ou biologiques sur le pronostic cardiovasculaire, rénal ou périnatal. Bien que les pathologies varient (sevrage tabagique maternel, insuffisance rénale chronique, syndrome coronarien aigu, rigidité artérielle, glaucome et apnée du sommeil), les articles partagent une méthodologie statistique rigoureuse d&#x27;évaluation du risque relatif et des facteurs pronostiques indépendants, avec l&#x27;utilisation prédominante de modèles multivariés de régression (Cox, régression logistique) et la quantification systématique des intervalles de confiance à 95 %.</p>
+    <div class="badges"><span class="badge methode">Études de cohortes prospectives et essais randomisés</span><span class="badge methode">Modèles de régression de Cox et modèles logistiques multivariés</span><span class="badge methode">Estimation des risques relatifs (Hazard Ratios, Odds Ratios) et IC à 95 %</span><span class="badge methode">Évaluation des facteurs de confusion démographiques et métaboliques</span><span class="badge methode">Pronostic cardiovasculaire, rénal et périnatal</span></div>
+  </div>
+  <h2>Top 5 des articles les plus significatifs</h2>
+  
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#1</span>
+            <span class="year">2021</span>
+            <span class="score">Poids NMF : <strong>0.0361</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Financial incentives for smoking cessation in pregnancy: multicentre randomised controlled trial.</h3>
+        <p>Démontre par un essai contrôlé randomisé multicentrique qu&#x27;une incitation financière progressive augmente significativement le taux d&#x27;abstinence tabagique continue chez la femme enceinte et réduit le risque d&#x27;issues néonatales défavorables.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#2</span>
+            <span class="year">2018</span>
+            <span class="score">Poids NMF : <strong>0.035</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Association of a Low-Protein Diet With Slower Progression of CKD.</h3>
+        <p>Révèle, via une étude de cohorte prospective avec modèles de risques compétitifs, qu&#x27;un apport protéique alimentaire réduit est associé à un ralentissement indépendant de la progression vers l&#x27;insuffisance rénale terminale sans effet de seuil détectable.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#3</span>
+            <span class="year">2017</span>
+            <span class="score">Poids NMF : <strong>0.0343</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Baseline adiponectin concentration and clinical outcomes among patients with diabetes and recent acute coronary syndrome in the EXAMINE trial.</h3>
+        <p>Identifie, à partir des données de l&#x27;essai EXAMINE, des concentrations élevées d&#x27;adiponectine plasmatique comme un facteur prédictif indépendant de survenue d&#x27;insuffisance cardiaque et de mortalité totale après un syndrome coronarien aigu chez le diabétique.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#4</span>
+            <span class="year">2012</span>
+            <span class="score">Poids NMF : <strong>0.034</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Sex difference in cardiovascular risk: role of pulse pressure amplification.</h3>
+        <p>Met en évidence sur une cohorte de plus de 120 000 patients que l&#x27;atténuation de l&#x27;amplification de la pression pulsée liée au vieillissement explique l&#x27;élévation prononcée du risque de mortalité cardiovasculaire chez les femmes ménopausées.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#5</span>
+            <span class="year">2014</span>
+            <span class="score">Poids NMF : <strong>0.0335</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Association between glaucoma and sleep apnea in a large French multicenter prospective cohort.</h3>
+        <p>Indique, par régression logistique multivariée sur une cohorte multicentrique de près de 10 000 sujets, que le syndrome d&#x27;apnées obstructives du sommeil n&#x27;est pas indépendamment associé à une prévalence accrue de glaucome après ajustement sur les facteurs confondants.</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "topic_id": 6,
+  "topic_nom": "T6: surgery, surgical, diagnosis",
+  "mots_cles": [
+    "surgery",
+    "surgical",
+    "diagnosis",
+    "clinical",
+    "imaging",
+    "treatment",
+    "complications",
+    "report"
+  ],
+  "articles": [
+    {
+      "rang": 1,
+      "title": "Minimally invasive robotic surgery for left lower lobe arteriovenous malformation.",
+      "year": 2026,
+      "abstract": "Mme L., a 53-year-old female with a history of controlled hypertension, cervical disc herniation, and prior breast prosthesis implantation, presented in September 2023 with isolated sixth cranial nerve palsy. Neurological and ophthalmological evaluations were normal aside from the palsy. Magnetic resonance imaging (MRI), blood tests, and electromyography showed no abnormalities. A thoracic computed tomography (CT) scan, performed to rule out a thymic lesion, revealed a 53 × 25 × 40 mm bilobed cystic lesion in the left lower lobe, associated with a vascular structure forming an arteriovenous loop between the pulmonary artery and vein. There were no respiratory, digestive, or bleeding symptoms, and no features of Osler-Weber-Rendu disease. Given the lesion's complexity, multiple multidisciplinary teams reviewed the case. Embolization was considered; however, the interventional radiology teams deemed the procedure technically difficult, and after discussion of risks and benefits in a multidisciplinary setting, the patient preferred surgical resection. To reduce the risk of paradoxical emboli, surgical resection was chosen. In September 2024, Mme L. underwent successful robot-assisted thoracic surgery at Pontchaillou Hospital, Rennes, using the da Vinci XI system. Four trocars were used to resect the lesion, and the malformation was ligated with 5-0 polypropylene sutures and surgical clips. The patient had an uneventful recovery and was discharged on postoperative day four. CT imaging confirmed the absence of complications. Histopathology showed an emphysematous lesion without malignancy. At 1-month and 6-month follow-ups, the patient remained asymptomatic. This case demonstrates a safe and effective robotic surgical approach to a rare pulmonary arterio-venous malformation. The online version contains supplementary material available at 10.1007/s12055-025-02131-2.",
+      "poids_nmf": 0.0382,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 2,
+      "title": "Severe portal hypertension secondary to arterio-portal fistula: salvage surgical treatment.",
+      "year": 2007,
+      "abstract": "Arterio-portal fistulas (APFs) are rare vascular disorders of various origins that can lead to severe portal hypertension. Even if surgery was initially the treatment of choice, more recently, interventional radiological procedures have been considered as the first line therapeutic option. A man with no history of liver disease was admitted for abdominal pain and distension. Abdominal ultrasonography with Doppler, magnetic resonance imaging and computed tomography (CT) scan showed ascites, splenomegaly and a probable APF between the left branches of both the hepatic artery and portal vein, associated with hepatofugal portal flow. Upper gastrointestinal endoscopy revealed large oesophageal varices without bleeding. A celiac and mesenteric arteriography and a splenic arteriography were performed and confirmed the existence of multiple intrahepatic APFs. The initial treatment consisted of two sessions of percutaneous transcatheter endovascular embolization. Unfortunately, ascites worsened, and the patient did not respond to diuretic treatment. Therefore, a surgical treatment was considered to be the only suitable treatment because of the absence of improvement after embolization procedures. A left hepatectomy with hepatic artery ligation was performed. Clinical evolution was favourable; an improvement of ascites was obtained; control ultrasonography and CT scan disclosed no residual haemodynamic abnormality; and the portal vein was normal with a hepatopedal flow. Currently, 12 months after surgery, the clinical condition of the patient is good. Percutaneous treatment of portal hypertension by embolizing multiple large APF has been described to be an effective method. Nevertheless, failure of such conservative treatment is possible and must lead to a salvage surgery.",
+      "poids_nmf": 0.0379,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 3,
+      "title": "Vascular complications after surgical repair of aneurysms in Behçet's disease.",
+      "year": 2002,
+      "abstract": "The poor prognosis of vasculo Behcet's disease is often due to postoperative vascular complications (false aneurysm and graft occlusion). We report a case of an abdominal aortic aneurysm associated with an aneurysm of the left common femoral artery in a 23-year-old Portuguese man. The primary treatment was surgical (aneurysmectomy and prosthetic revascularization). The early occlusion of the left femoral revascularized artery was treated surgically with a new bypass. The occlusion of the right limb of the aortoiliac graft was asymptomatic and was not treated. Two months after admission to our hospital, the stenosis of the infrarenal aorta successfully treated by angioplasty via the occluded right limb of the graft. The patient was followed up for 18 months. He could only walk a short distance and had rest pain in the left foot. Magnetic resonance angiography showed a false aneurysm of the infrarenal aorta, and an occlusion of the remaining left limb of the aortoiliac graft. The endovascular treatment performed does not avoid the need for surgical treatment, because occlusion and false aneurysm may occur after dilatation. The endovascular approach can also be used during a sudden inflammatory surge, and makes it possible to wait for a quiescent period when surgery can be performed.",
+      "poids_nmf": 0.0351,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 4,
+      "title": "Cervical laminectomy and micro resection of the posterior venous plexus in Hirayama disease.",
+      "year": 2018,
+      "abstract": "Hirayama disease is a rare cervical myelopathy predominantly affecting young adults and mainly found in Asia. It results in a pure motor distal lesion of the upper limbs with slow progression. Dynamic magnetic resonance imaging (MRI), which allows the diagnosis to be made, shows a typical appearance of anterior compression of the cervical spinal cord associated with enlargement of the posterior epidural spaces due to a dilated venous plexus. Surgery is considered when conservative treatment has failed. However, the type of surgery is not well standardized in this compressive myelopathy. We report on three patients with Hirayama disease operated using an original method: cervical decompressive laminectomy and coagulation of the posterior epidural plexus without fixation. The clinical, radiological and surgical data of these three patients were analyzed. Each patient underwent postoperative MR imaging. The mean age at diagnosis was 18.6 years (16-20 years) with a history of progressive symptoms lasting 1 to 4 years before treatment. Follow-up was 21 to 66 months after surgery. Neurological and electrophysiological improvement was noted in two patients; the third had stabilized. Postoperative MRI confirmed normalization of flexion imaging on MRI. None of the three patients complained of disabling neck pain. Posterior cervical decompression with coagulation of epidural venous plexus is a technique that seems effective in Hirayama disease in young subjects. It effectively treats patients by avoiding permanent cervical fixation.",
+      "poids_nmf": 0.0347,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 5,
+      "title": "[Pituitary apoplexy following coronary bypass surgery: A case report and literature review].",
+      "year": 2020,
+      "abstract": "Pituitary apoplexy is a >rare entity that presents with a sudden onset of headache associated with visual and endocrinological disturbances due to pituitary hemorrhage or infarction. It usually occurs in patients with an unknown pituitary adenoma. Cardiac surgery, and especially coronary artery bypass grafting, can be a precipitating factor in these patients. We report an 82-year-old male patient who presented with sudden headache and delirium, a right sixth cranial nerve palsy, a right temporal hemianopsia, and a severe loss of left eye visual acuity in the immediate post-operative course of a coronary artery bypass surgery. Pituitary apoplexy was demonstrated on both MRI and CT-scan. Trans-sphenoidal surgical decompression was performed 13 days after coronary artery bypass grafting, with immediate beneficial effect on the delirium and a partial recovery of visual disturbances. Pituitary apoplexy is a rare and life-threatening complication that may occur after cardiac surgery (coronary artery bypass, cardiac valve surgery), often precipitated by the use of cardiopulmonary bypass. It can occur after other surgical procedures (orthopedic, digestive, thoracic). The diagnosis must be considered during the early postoperative period in the presence of unusual and severe headache associated with visual disturbances.",
+      "poids_nmf": 0.0347,
+      "part_theme": 1.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "topic_id": 1,
+  "topic_nom": "T1: cells, cell, expression",
+  "mots_cles": [
+    "cells",
+    "cell",
+    "expression",
+    "induced",
+    "receptor",
+    "activity",
+    "human",
+    "activation"
+  ],
+  "articles": [
+    {
+      "rang": 1,
+      "title": "Modulation of human endothelial cell activation by antiproliferative cytokines: exploration of arachidonic acid and intracellular cytokine pathways as possible mechanisms of action.",
+      "year": 1993,
+      "abstract": "Some cytokines are known to affect both proliferation and activation of cultured human endothelial cells (HEC). We compared the extent of these modifications when induced by several cytokines or by the monocyte-derived endothelial cell inhibitory factor (MECIF) activity. We measured as endothelial activation parameters the expression of endothelium-leukocyte adhesion receptor-1 (ELAM-1, E-selectin), major histocompatibility complex (MHC) class II antigens, interleukin 1 (IL-1), interleukin 6 (IL-6), and prostacyclin. To further investigate if a common or distinct intracellular mechanism was involved in the action of these effectors we studied the influence of indomethacin, a cyclooxygenase inhibitor, on the growth inhibition and the activation effects. Our results showed that IL-1 beta, tumor necrosis factor (TNF)alpha, and MECIF activity induced the expression of ELAM-1 on HEC membrane while transforming growth factor beta (TGF beta), IL-6, and gamma-interferon (IFN-gamma) showed no effect. However, MECIF activity did not induce MHC class II antigens on HEC surface. MECIF activity appeared to be immunologically distinct from IL-1 beta, TNF alpha, and TNF beta (lymphotoxin). IL-6 production by HEC was significantly increased only in the presence of IL-1 beta, TNF alpha, or MECIF activity. Intracellular IL-1 alpha and IL-1 beta levels were markedly enhanced by IL-1 beta and TNF alpha. MECIF activity, TNF alpha, and IL-1 beta significantly increased prostacyclin secretion whereas TGF beta, IL-6, and IFN-gamma showed no significant effect. Indomethacin did not significantly modify ELAM-1 induction and reduced in a nonsignificant manner the antiproliferative effect of MECIF activity, TNF alpha, IL-1 beta, and TGF beta. The effectors studied appeared to modulate differently the expression of endothelial products and activation markers in vitro, suggesting that their effects could be mediated through distinct intracellular pathways. The cyclooxygenase pathway of arachidonic acid metabolism could be involved in the growth inhibitory action of MECIF activity, TNF alpha, IL-1 beta, and TGF beta but an additional putative pathway might also be involved.",
+      "poids_nmf": 0.0367,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 2,
+      "title": "Identification of membrane calcium channels essential for cytoplasmic and nuclear calcium elevations induced by vascular endothelial growth factor in human endothelial cells.",
+      "year": 2001,
+      "abstract": "Vascular endothelial growth factor (VEGF) is mitogenic for endothelial cells and has been shown to induce angiogenesis and endothelial cell migration through stimulation of endothelial tyrosine-kinase receptors. Here, using confocal microscopy and the patch-clamp technique on endothelial cells, membrane permeability to calcium as well as cytoplasmic and nuclear free calcium levels have been investigated in the first stages of tyrosine-kinase receptor activation by VEGF. VEGF (0.5nM) as well as inositol trisphosphate (IP3) induced an activation of membrane calcium-permeable channels exhibiting a similar low conductance in the range of 10 pS. The VEGF-triggered activation of these calcium channels, mediated by IP3 and involving the intracellular calcium stores, results in an increase in both cytoplasmic and nuclear calcium levels in endothelial cells, potentially modulating gene expression. Finally, the effect of Ni2+, a calcium channel blocker, on endothelial cell proliferation has been studied. The results show that inhibition of extracellular calcium influx significantly inhibits VEGF-induced cell proliferation. In the process of cell stimulation by VEGF, and possibly by other growth factors, activation of calcium channels could then be a key step in calcium-regulated gene expression and cell activation. These results suggest that the use of calcium channel blockers could be a novel way of prevention or reversion of VEGF-induced tumoral angiogenesis.",
+      "poids_nmf": 0.0333,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 3,
+      "title": "The luteinizing hormone-releasing hormone inhibits the anti-apoptotic activity of insulin-like growth factor-1 in pituitary alphaT3 cells by protein kinase Calpha-mediated negative regulation of Akt.",
+      "year": 2004,
+      "abstract": "The luteinizing hormone-releasing hormone (LHRH) receptor is a G protein-coupled receptor involved in the synthesis and release of pituitary gonadotropins and in the proliferation and apoptosis of pituitary cells. Insulin-like growth factor-1 receptor (IGF-1R) is a tyrosine kinase receptor that has a mitogenic effect on pituitary cells. In this study, we used the alphaT3 gonadotrope cell line as a model to characterize the IGF-1R signaling pathways and to investigate whether this receptor interacts with the LHRH cascade. We found that IGF-1 activated the IGF-1R, insulin receptor substrate (IRS)-1, phosphatidylinositol 3-kinase, and Akt in a time-dependent manner in alphaT3 cells. The MAPK (ERK1/2, p38, and JNK) pathways were only weakly activated by IGF-1. In contrast, LHRH strongly stimulated the MAPK pathways but had no effect on Akt activation. Cotreatment with IGF-1 and LHRH had various effects on these signaling pathways. 1) It strongly increased IGF-1-induced tyrosine phosphorylation of IRS-1 and IRS-1-associated phosphatidylinositol 3-kinase through activation of the epidermal growth factor receptor. 2) It had an additive effect on ERK1/2 activation without modifying the phosphorylation of p38 and JNK1/2. 3) It strongly reduced IGF-1 activation of Akt. 3-(4,5-Dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide assays and cell cycle analysis revealed that, in addition to having an additive effect on ERK1/2 activation, cotreatment with IGF-1 and LHRH also had an additive effect on cell proliferation. The LHRH-induced inhibition of Akt stimulated by IGF-1 was completely blocked by Safingol, a protein kinase C (PKC) alpha-specific inhibitor, and by a dominant negative form of PKCalpha. Finally, we showed that the inhibitory effect of LHRH on IGF-1-induced PKCalpha-mediated Akt activation was associated with a marked reduction in Bad phosphorylation and a substantial decrease in the ability of IGF-1 to rescue alphaT3 cells from apoptosis induced by serum starvation. Our results demonstrate for the first time that several interactions take place between IGF-1 and LHRH receptors in gonadotrope cells.",
+      "poids_nmf": 0.0329,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 4,
+      "title": "Regulation of Tight-Junction Integrity by Insulin in an In Vitro Model of Human Blood-Brain Barrier.",
+      "year": 2017,
+      "abstract": "Although insulin receptor is expressed at the human blood-brain barrier (BBB), the physiological and pathologic roles of insulin signaling in biologic responses at the BBB remain unclear. Here, we investigate insulin signaling at the human BBB using human cerebral microvascular endothelial cell line (hCMEC/D3) as a well-established in vitro model. Western blot analysis showed that insulin induced phosphorylation of extracellular signal-regulated kinase and insulin receptor substrate-1 in hCMEC/D3 cells. Short-term insulin stimulation increased cell proliferation via the canonical phosphoinositide-3 kinase/protein kinase B and mitogen-activated protein kinase signaling pathways, suggesting that insulin signaling is involved in the regulation of biologic responses in the human BBB. We also found that insulin rapidly increased tight-junction integrity of hCMEC/D3 cells via the phosphoinositide-3 kinase/protein kinase B/glycogen synthase kinase-3 β signaling pathway. Inhibition of insulin/insulin-like growth factor-1 receptor kinase by AG1024 blocked the increase of tight-junction integrity. In addition, high-insulin/high-glucose treatment (as a model of hyperglycemia and hyperinsulinemia) synergistically reduced the tight-junction integrity in hCMEC/D3 cells, although either condition alone had little or no effect. Our findings suggest that, in addition to the established role of interactions of astrocytes and pericytes with brain capillary endothelial cells, insulin signaling from the blood side of the BBB contributes to maintenance of homeostasis by regulating cell proliferation and tight-junction integrity.",
+      "poids_nmf": 0.0329,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 5,
+      "title": "Contribution of phospholipase D in endothelin-1-mediated extracellular signal-regulated kinase activation and proliferation in rat uterine leiomyoma cells.",
+      "year": 2005,
+      "abstract": "Endothelin (ET)-1 is a mitogenic factor in numerous cell types, including rat myometrial cells. In the present study, we investigated the potential role of ET-1 in the proliferation of tumoral uterine smooth muscle cells (ELT-3 cells). We found that ET-1 exerted a more potent mitogenic effect in ELT-3 cells than in normal myometrial cells, as indicated by the increase in [3H]thymidine incorporation, cell number, and bromodeoxyuridine incorporation. The ET-1 was more efficient than platelet-derived growth factor and epidermal growth factor to stimulate proliferation. The ET-1-mediated cell proliferation was inhibited in the presence of U0126, a specific inhibitor of (mitogen-activated protein kinase ERK kinase), indicating that extracellular signal-regulated kinase (ERK) activation is involved. Additionally, ET-1 induced the activation of phospholipase (PL) D, leading to the synthesis of phosphatidic acid (PA). The ET-1-induced activation of PLD was twofold higher in ELT-3 cells compared to that in normal cells. The two cell types expressed mRNA for PLD1a and PLD2, whereas PLD1b was expressed only in ELT-3 cells. The exposure of cells to butan-1-ol reduced ET-1-mediated production of PA by PLD and partially inhibited ERK activation and DNA synthesis. Addition of exogenous PLD or PA in the medium reproduced the effect of ET-1 on ERK activation and cell proliferation. Collectively, these data indicate that ET-1 is a potent mitogenic factor in ELT-3 cells via a signaling pathway involving a PLD-dependent activation of ERK. This highlights the potential role of ET-1 in the development of uterine leiomyoma, and it reinforces the role of PLD in tumor growth.",
+      "poids_nmf": 0.0327,
+      "part_theme": 1.0
+    }
+  ]
+}

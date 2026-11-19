@@ -1,0 +1,39 @@
+{
+  "nom_propose": "Épidémiologie clinique et évaluation du risque",
+  "synthese_globale": "Ce groupe d'articles illustre des études cliniques et épidémiologiques quantitatives (essais randomisés et vastes cohortes observationnelles) axées sur l'estimation précise des risques d'événements de santé et de mortalité. Ils partagent une structure statistique rigoureuse caractérisée par l'évaluation de variables démographiques (notamment l'âge et le sexe) et de biomarqueurs ou expositions cliniques, rapportant de manière systématique des mesures d'association (odds ratios, hazard ratios) assorties de leurs intervalles de confiance à 95 %.",
+  "methodes_ou_sujets_cles": [
+    "Modèles à risques proportionnels de Cox (Hazard Ratios)",
+    "Régression logistique multivariée (Odds Ratios)",
+    "Intervalles de confiance à 95 %",
+    "Études de cohortes prospectives multicentriques",
+    "Essais contrôlés randomisés (ECR)",
+    "Facteurs de risque cardiovasculaires, métaboliques et rénaux"
+  ],
+  "analyse_par_article": [
+    {
+      "titre": "Financial incentives for smoking cessation in pregnancy: multicentre randomised controlled trial.",
+      "annee": "2021",
+      "resume_apport": "Démontre via un essai randomisé multicentrique qu'une incitation financière progressive augmente significativement l'abstinence tabagique continue chez les femmes enceintes (OR 2,45 [IC 95 % : 1,34-4,49]) et réduit le risque d'issues néonatales défavorables."
+    },
+    {
+      "titre": "Association of a Low-Protein Diet With Slower Progression of CKD.",
+      "annee": "2018",
+      "resume_apport": "Met en évidence dans une cohorte prospective de patients atteints d'insuffisance rénale chronique qu'un apport protéique plus faible est associé de manière linéaire à un ralentissement du risque d'évolution vers l'insuffisance rénale terminale (HR 1,05 par palier de 0,1 g/kg/j)."
+    },
+    {
+      "titre": "Baseline adiponectin concentration and clinical outcomes among patients with diabetes and recent acute coronary syndrome in the EXAMINE trial.",
+      "annee": "2017",
+      "resume_apport": "Révèle que des concentrations élevées d'adiponectine plasmatique sont paradoxalement associées de manière indépendante à une augmentation du risque de mortalité cardiovasculaire et d'hospitalisation pour insuffisance cardiaque chez les diabétiques post-syndrome coronarien aigu."
+    },
+    {
+      "titre": "Sex difference in cardiovascular risk: role of pulse pressure amplification.",
+      "annee": "2012",
+      "resume_apport": "Établit sur une vaste cohorte de plus de 125 000 individus que l'atténuation de l'amplification de la pression pulsée (ratio brachio-carotidien) liée à l'âge prédit fortement le risque de mortalité cardiovasculaire, avec un impact pronostique particulièrement marqué chez les femmes post-ménopausées."
+    },
+    {
+      "titre": "Association between glaucoma and sleep apnea in a large French multicenter prospective cohort.",
+      "annee": "2014",
+      "resume_apport": "Démontre, après ajustement multivarié dans une cohorte de 9 580 patients, l'absence d'association indépendante entre le syndrome d'apnées obstructives du sommeil et le glaucome, ce dernier étant principalement corrélé à l'âge, au sexe féminin, à l'HTA et aux dyslipidémies."
+    }
+  ]
+}

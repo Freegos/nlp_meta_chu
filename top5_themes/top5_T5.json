@@ -1,0 +1,56 @@
+{
+  "topic_id": 5,
+  "topic_nom": "T5: gene, genes, dna",
+  "mots_cles": [
+    "gene",
+    "genes",
+    "dna",
+    "protein",
+    "genetic",
+    "species",
+    "genome",
+    "sequence"
+  ],
+  "articles": [
+    {
+      "rang": 1,
+      "title": "Differential evolution in 3'UTRs leads to specific gene expression in Staphylococcus.",
+      "year": 2020,
+      "abstract": "The evolution of gene expression regulation has contributed to species differentiation. The 3' untranslated regions (3'UTRs) of mRNAs include regulatory elements that modulate gene expression; however, our knowledge of their implications in the divergence of bacterial species is currently limited. In this study, we performed genome-wide comparative analyses of mRNAs encoding orthologous proteins from the genus Staphylococcus and found that mRNA conservation was lost mostly downstream of the coding sequence (CDS), indicating the presence of high sequence diversity in the 3'UTRs of orthologous genes. Transcriptomic mapping of different staphylococcal species confirmed that 3'UTRs were also variable in length. We constructed chimeric mRNAs carrying the 3'UTR of orthologous genes and demonstrated that 3'UTR sequence variations affect protein production. This suggested that species-specific functional 3'UTRs might be specifically selected during evolution. 3'UTR variations may occur through different processes, including gene rearrangements, local nucleotide changes, and the transposition of insertion sequences. By extending the conservation analyses to specific 3'UTRs, as well as the entire set of Escherichia coli and Bacillus subtilis mRNAs, we showed that 3'UTR variability is widespread in bacteria. In summary, our work unveils an evolutionary bias within 3'UTRs that results in species-specific non-coding sequences that may contribute to bacterial diversity.",
+      "poids_nmf": 0.036,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 2,
+      "title": "Cloning, sequencing and expression of the two genes encoding the mitochondrial single-stranded DNA-binding protein in Xenopus laevis.",
+      "year": 1997,
+      "abstract": "In Xenopus laevis the single-stranded DNA binding protein imported into the mitochondria consists of two highly related polypeptides. The establishment of the genomic nucleotide sequences reveals that they are encoded by two different genes, XLSSB1 and XLSSB2. The deduced amino acid sequence is identical to the direct amino acid sequence determined by Edman degradation of the mitochondrial polypeptides [Ghrir. R., Lecaer, J.P., Dufresne, C. and Gueride, M. (1991) Primary structure of the two variants of Xenopus laevis mtSSB, a mitochondrial DNA binding protein. Arch. Biochem. Biophys. 291, 395-400]. Both genes are organized in seven exons and six introns, the sequence of the peptide leader is interrupted by an intervening sequence (intron 2). The exon/intron junctions are in exactly conserved positions, splitting the same codon. A high level of identity is observed between corresponding introns of the two genes over part or most of their lengths. Structural features of intronic sequences reveal multiple rearrangements and exchanges during the evolution of X. laevis species. A CCAAT box and the potential regulatory elements NRF-2 and Sp 1 are observed in the 5'-flanking region of both genes. During oogenesis, XLSSB gene expression is correlated with the replicative activity of the mitochondrial DNA.",
+      "poids_nmf": 0.0358,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 3,
+      "title": "Zisupton--a novel superfamily of DNA transposable elements recently active in fish.",
+      "year": 2012,
+      "abstract": "Transposable elements are widespread mobile DNA sequences able to integrate into new locations within genomes. Through transposition and recombination, they significantly contribute to genome plasticity and evolution. They can also regulate gene expression and provide regulatory and coding sequences (CDSs) for the evolution of novel gene functions. We have identified a new superfamily of DNA transposon on the Y chromosome of the platyfish Xiphophorus maculatus. This element is 11 kb in length and carries a single CDS of 24 exons. The N-terminal part of the putative protein, which is expressed in all adult tissues tested, contains several nucleic acid- and protein-binding domains and might correspond to a novel type of transposase/integrase not described so far in any transposon. In addition, a testis-specific splice isoform encodes a C-terminal Ulp1 SUMO protease domain, suggesting a function in posttranslational protein modification mediated by SUMO and/or ubiquitin small peptides. Accordingly, this element was called Zisupton, for Zinc finger SUMO protease transposon. Beside the Y-chromosomal sequence, five other very similar copies were identified in the platyfish genome. All copies are delimited by 99-bp conserved subterminal inverted repeats and flanked by copy-specific 8-nt target site duplications reflecting their integration at different positions in the genome. Zisupton elements are inserted at different genomic locations in different poeciliid species but also in different populations of X. maculatus. Such insertion polymorphisms between related species and populations indicate relatively recent transposition activity, with a high degree of nucleotide identity between species suggesting possible implication of horizontal gene transfer. Zisupton sequences were detected in other fish species, in urochordates, cephalochordates, and hemichordates as well as in more distant organisms, such as basidiomycete fungi, filamentous brown algae, and green algae. Possible examples of nuclear genes derived from Zisupton have been identified. To conclude, our analysis has uncovered a new superfamily of DNA transposons with potential roles in genome diversity and evolutionary innovation in fish and other organisms.",
+      "poids_nmf": 0.0348,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 4,
+      "title": "Origin, diversity and evolution of NBS-type disease-resistance gene homologues in coffee trees (Coffea L.).",
+      "year": 2001,
+      "abstract": "The majority of plant disease-resistance genes (R-genes) isolated so far encode a predicted nucleotide-binding site (NBS) domain. NBS domains related to R-genes show a highly conserved backbone of amino acid motifs, which makes it possible to isolate resistance gene analogues (RGAs) by PCR with degenerate primers. Multiple combinations of primers with low degeneracy, designed from two conserved motifs in the NBS regions of R-genes of various plants, were used on genomic DNA from coffee trees, an important perennial tropical crop. Nine distinct classes of RGAs of the NBS-like type, representing a highly diverse sample, were isolated from Coffea arabica and C. canephora species. The analysis of one coffee RGA family suggested point mutations as the primary source of diversity. With one exception, coffee RGA families appeared to be closely related in sequence to at least one cloned R-gene. In addition, deduced amino acid sequences of coffee RGAs were identified that showed strong sequence similarity to almost all known non-TIR (Toll/Interleukin 1 Receptor)-type R-genes. The high degree of similarity between particular coffee RGAs and R-genes isolated from other angiosperm species, such as Arabidopsis, tomato and rice, indicates an ancestral relationship and the existence of common ancestors. The data obtained from coffee species suggests that the evolution of NBS-encoding sequences involves the gradual accumulation of mutations and slow rates of divergence within distinct R-gene families, rather than being a rapid process. Functional inferences drawn from the suggested pattern of evolution of NBS-type R-genes is also discussed.",
+      "poids_nmf": 0.034,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 5,
+      "title": "Molecular characterization of a new human T-box gene (TBX22) located in xq21.1 encoding a protein containing a truncated T-domain.",
+      "year": 2000,
+      "abstract": "We are conducting a systematic transcriptional mapping of the Xq12-q21 region of the human X chromosome in order to identify new genes potentially involved in X-linked mental retardation phenotypes. In silico analysis using the sequence of the genomic clones originating from this region of the human X chromosome allowed us to characterize a new gene belonging to the T-box family of transcriptional regulators. These genes were shown to be critical for proper development of both vertebrates and invertebrates. We show here that this new gene, called TBX22, is composed of seven exons spanning 8.7 kilobases of genomic DNA in Xq21.1. The TBX22 mRNA is 2099 base pairs long and encodes a 400-amino-acids protein containing a T-domain in its NH(2)-terminal region which has the unique feature of missing 20 amino-acids relative to the other known T-domains. TBX22 transcripts were exclusively found in a human fetal cDNA library and no homologous gene could be detected in the mouse genome. In addition, phylogenetic studies performed using all the known T-domain-containing proteins show that TBX22 is not directly related to any of them. These data indicate that TBX22 may be the first identified member of a new family of T-domain-containing proteins.",
+      "poids_nmf": 0.0339,
+      "part_theme": 1.0
+    }
+  ]
+}
