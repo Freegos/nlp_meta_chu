@@ -1,0 +1,56 @@
+{
+  "topic_id": 4,
+  "topic_nom": "T4: cancer, survival, treatment",
+  "mots_cles": [
+    "cancer",
+    "survival",
+    "treatment",
+    "tumor",
+    "chemotherapy",
+    "breast",
+    "therapy",
+    "breast cancer"
+  ],
+  "articles": [
+    {
+      "rang": 1,
+      "title": "IMpassion132 Phase III trial: atezolizumab and chemotherapy in early relapsing metastatic triple-negative breast cancer.",
+      "year": 2019,
+      "abstract": "The PD-L1 inhibitor atezolizumab received US FDA accelerated approval as treatment for PD-L1-positive metastatic triple-negative breast cancer (TNBC). In IMpassion130, combining atezolizumab with first-line nab-paclitaxel for metastatic TNBC significantly improved progression-free survival and showed a clinically meaningful effect on overall survival in patients with PD-L1-positive tumors. The placebo-controlled randomized Phase III IMpassion132 (NCT03371017) trial is evaluating atezolizumab with first-line chemotherapy (capecitabine [mandatory in platinum-pretreated patients] or gemcitabine/carboplatin) for inoperable locally advanced/metastatic TNBC recurring ≤12 months after completing standard (neo)adjuvant anthracycline and taxane chemotherapy. Stratification factors are: visceral metastases, tumor immune cell PD-L1 status and selected chemotherapy. Patients are randomized to atezolizumab 1200 mg or placebo every 3 weeks with the chosen chemotherapy, continued until progression, unacceptable toxicity or withdrawal. The primary end point is overall survival.",
+      "poids_nmf": 0.0464,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 2,
+      "title": "Optimizing chemotherapy and radiotherapy in locally advanced non-small cell lung cancer.",
+      "year": 1997,
+      "abstract": "In recent years, three treatment methods have been shown to improve overall survival of patients with locally advanced non-small cell lung cancer. These are: sequential combined radiotherapy and cisplatin-based chemotherapy, concurrent administration of cisplatin and thoracic radiotherapy, and accelerated hyper fractionated radiotherapy. Optimization of results can be attained by integrating these three treatment approaches.",
+      "poids_nmf": 0.0443,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 3,
+      "title": "Results of a conservative treatment combining induction (neoadjuvant) and consolidation chemotherapy, hormonotherapy, and external and interstitial irradiation in 98 patients with locally advanced breast cancer (IIIA-IIIB).",
+      "year": 1988,
+      "abstract": "Ninety-eight patients with locally advanced breast cancer (Stage IIIA-IIIB) were entered into a pilot study combining intensive induction (neoadjuvant) chemotherapy (VTMFAP) with or without hormonochemotherapy, external and interstitial radiotherapy, and consolidation chemotherapy with or without hormonochemotherapy. Tumor regression over 50% was observed in 91% patients after chemotherapy, and complete clinical remission occurred in 100% patients after irradiation. The rate of local relapse is 13%. The 3-year disease-free survival is 62% and 3-year global survival is 77%. Initial chemotherapeutic tumor regression greater than 75% is the main predictive factor for disease-free survival.",
+      "poids_nmf": 0.0392,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 4,
+      "title": "The variability of aggressiveness of grade 1 breast cancer.",
+      "year": 2023,
+      "abstract": "Grade 1 breast cancer represents the lowest grade of invasive breast cancer and is associated with a low risk of recurrence and distant metastasis. However, when grade 1 breast cancer is associated with lymph node involvement, the prognosis may be worse than that of grade 1 breast cancer without lymph node involvement. The study population included all patients who were managed in our institution between January 1, 2007 and December 31, 2013 for grade 1 breast cancer . We compared patients who had lymph node involvement to those who had no lymph node involvement. During the study period 291 grade 1 carcinomas were included of which 23% had associated positive lymph node involvement. Overall survival did not differ significantly between patients without lymph node involvement and those with lymph node involvement, nor was there a significant difference in the risk of local recurrence free survival. However, a significant difference was found in survival without distant metastasis with a significant level of a p at 0.029. Our findings confirm that tumor size and LVSI are strong predictors of axillary lymph node involvement, which is a key determinant of distant metastasis-free survival.",
+      "poids_nmf": 0.0391,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 5,
+      "title": "Cathepsin D: an independent prognostic factor for metastasis of breast cancer.",
+      "year": 1989,
+      "abstract": "122 patients with primary breast cancer were followed-up for a median of 4.6 years after surgery. The concentration of cathepsin D in tumour cytosol was strongly related to both metastasis-free survival and disease-free survival and was independent of nine conventional prognostic indices. Cathepsin D assay may prove particularly useful in identifying women who, though without lymph node involvement at presentation, are at high risk of metastatic disease.",
+      "poids_nmf": 0.0383,
+      "part_theme": 1.0
+    }
+  ]
+}

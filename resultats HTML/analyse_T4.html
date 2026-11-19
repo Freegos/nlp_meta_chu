@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Analyse NMF - T4: cancer, survival, treatment</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; color: #1e293b; max-width: 920px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+  .header { background: #0f172a; color: white; padding: 28px 32px; border-radius: 14px; margin-bottom: 24px; }
+  .header .tag { text-transform: uppercase; font-size: 12px; letter-spacing: 1px; color: #38bdf8; font-weight: 700; }
+  .header h1 { margin: 6px 0 14px 0; font-size: 26px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .badge { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .badge.tfidf { background: rgba(255,255,255,0.12); color: #e2e8f0; }
+  .badge.methode { background: #e0f2fe; color: #0369a1; }
+  .synthese { background: white; padding: 24px 28px; border-radius: 12px; border-left: 5px solid #0284c7; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 28px; }
+  .synthese h2 { margin-top: 0; font-size: 18px; color: #0f172a; }
+  .card { background: white; padding: 20px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 16px; border: 1px solid #e2e8f0; }
+  .card-header { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+  .rank { background: #0f172a; color: white; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+  .year { background: #f1f5f9; color: #334155; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+  .score { margin-left: auto; }
+  .card h3 { margin: 4px 0 10px 0; font-size: 17px; color: #0f172a; }
+  .card p { margin: 0; color: #334155; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">T4: cancer, survival, treatment &bull; PubMed France (1955-2026)</div>
+    <h1>Stratégies thérapeutiques et pronostic des cancers</h1>
+    <div class="badges"><span class="badge tfidf">cancer</span><span class="badge tfidf">survival</span><span class="badge tfidf">treatment</span><span class="badge tfidf">tumor</span><span class="badge tfidf">chemotherapy</span><span class="badge tfidf">breast</span><span class="badge tfidf">therapy</span><span class="badge tfidf">breast cancer</span></div>
+  </div>
+  <div class="synthese">
+    <h2>Synthèse scientifique du thème</h2>
+    <p>Ce corpus relie l&#x27;évaluation des approches thérapeutiques combinées (chimiothérapie, radiothérapie, immunothérapie) et la recherche de facteurs pronostiques (biomarqueurs, atteinte ganglionnaire) pour optimiser la survie globale et sans récidive des patients atteints de cancer, en particulier du sein et du poumon.</p>
+    <div class="badges"><span class="badge methode">Chimiothérapie et radiothérapie</span><span class="badge methode">Survie globale et survie sans progression</span><span class="badge methode">Cancer du sein</span><span class="badge methode">Facteurs pronostiques et biomarqueurs</span><span class="badge methode">Essais cliniques de phase III</span><span class="badge methode">Immunothérapie</span></div>
+  </div>
+  <h2>Top 5 des articles les plus significatifs</h2>
+  
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#1</span>
+            <span class="year">2019</span>
+            <span class="score">Poids NMF : <strong>0.0464</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>IMpassion132 Phase III trial: atezolizumab and chemotherapy in early relapsing metastatic triple-negative breast cancer.</h3>
+        <p>Évaluation par un essai clinique de phase III de l&#x27;association d&#x27;atezolizumab et de chimiothérapie comme traitement de première ligne dans le cancer du sein triple-négatif métastatique à rechute précoce, avec la survie globale comme critère principal.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#2</span>
+            <span class="year">1997</span>
+            <span class="score">Poids NMF : <strong>0.0443</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Optimizing chemotherapy and radiotherapy in locally advanced non-small cell lung cancer.</h3>
+        <p>Analyse de l&#x27;optimisation des associations thérapeutiques (chimiothérapie à base de cisplatine et radiothérapie thoracique) pour améliorer la survie globale dans le cancer du non-petites cellules du poumon localement avancé.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#3</span>
+            <span class="year">1988</span>
+            <span class="score">Poids NMF : <strong>0.0392</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Results of a conservative treatment combining induction (neoadjuvant) and consolidation chemotherapy, hormonotherapy, and external and interstitial irradiation in 98 patients with locally advanced breast cancer (IIIA-IIIB).</h3>
+        <p>Étude pilote sur l&#x27;efficacité d&#x27;un traitement combiné multimodal (chimiothérapie néoadjuvante, hormonothérapie et radiothérapie) mesurant la survie sans maladie et la survie globale dans le cancer du sein localement avancé.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#4</span>
+            <span class="year">2023</span>
+            <span class="score">Poids NMF : <strong>0.0391</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>The variability of aggressiveness of grade 1 breast cancer.</h3>
+        <p>Examen de l&#x27;impact de l&#x27;atteinte ganglionnaire sur la survie sans métastases distantes et la survie globale chez des patientes atteintes d&#x27;un cancer du sein de grade 1.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#5</span>
+            <span class="year">1989</span>
+            <span class="score">Poids NMF : <strong>0.0383</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Cathepsin D: an independent prognostic factor for metastasis of breast cancer.</h3>
+        <p>Démonstration du rôle de la cathepsine D en tant que facteur pronostique indépendant pour la survie sans métastase et sans récidive dans le cancer du sein.</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "topic_id": 7,
+  "topic_nom": "T7: infection, virus, hiv",
+  "mots_cles": [
+    "infection",
+    "virus",
+    "hiv",
+    "viral",
+    "covid",
+    "infected",
+    "covid 19",
+    "19"
+  ],
+  "articles": [
+    {
+      "rang": 1,
+      "title": "Hepatitis B and E co-primary infections in an HIV-1-infected patient.",
+      "year": 2013,
+      "abstract": "We report an autochthonous hepatitis E virus (HEV)-hepatitis B virus co-primary infection in a 41-year-old man having sex with men and infected with human immunodeficiency virus (HIV). This case prompts testing for HEV in HIV-infected patients with acute hepatitis even if primary infection with another hepatitis virus is diagnosed.",
+      "poids_nmf": 0.0601,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 2,
+      "title": "Household Cases Suggest That Cats Belonging to Owners with COVID-19 Have a Limited Role in Virus Transmission.",
+      "year": 2021,
+      "abstract": "Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) is responsible for COVID-19 and spread rapidly following its emergence in Wuhan in 2019. Although cats are, among other domestic animals, susceptible to SARS-CoV-2 infection, little is known about their epidemiological role in the dynamics of a household infection. In this study, we monitored five cats for viral shedding daily. Each cat was confined with its COVID-19 positive owners in separate households. Low loads of viral nucleic acid were found in two cats, but only one developed anti-SARS-CoV-2 antibodies, which suggests that cats have a limited role in COVID-19 epidemiology.",
+      "poids_nmf": 0.0594,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 3,
+      "title": "Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Vertical Transmission in Neonates Born to Mothers With Coronavirus Disease 2019 (COVID-19) Pneumonia.",
+      "year": 2020,
+      "abstract": "One of seven neonates born to women with symptomatic coronavirus 2019 (COVID-19) infection tested positive for the infection and was asymptomatic.",
+      "poids_nmf": 0.0576,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 4,
+      "title": "Hepatitis delta virus super-infection in a co-infected patient with the human immunodeficiency virus type 1 and a surface antigen-negative hepatitis B virus variant.",
+      "year": 2006,
+      "abstract": "Human immunodeficiency virus infection has a major impact on the natural history of chronic hepatitis B and favours the emergence of viral mutants. We describe an acute hepatitis D virus superinfection in an HIV-1-infected patient under HAART treatment who was previously a chronic carrier of a surface negative HBV variant resistant to lamivudine.",
+      "poids_nmf": 0.0564,
+      "part_theme": 1.0
+    },
+    {
+      "rang": 5,
+      "title": "Hepatitis E virus as a newly identified cause of acute viral hepatitis during human immunodeficiency virus infection.",
+      "year": 2008,
+      "abstract": "The recent description of chronic hepatitis E in organ transplant recipients deserves increased awareness in the context of hepatitis E virus (HEV) infection in immunocompromised individuals. Reported here is what is apparently the first PCR-documented case of acute hepatitis E in a human immunodeficiency virus (HIV)-1-infected patient. The CD4(+) T-lymphocyte count was 246/mm(3). The IgM anti-HEV antibody and HEV RNA tests results from serum were positive. Hepatitis was benign, and chronic HEV infection was ruled out. The HEV genotype was 3f. The patient did not report recent travel abroad. HEV should be tested in HIV-infected individuals presenting with acute hepatitis. HEV RNA detection is useful in diagnosing HEV infection and in monitoring recovery.",
+      "poids_nmf": 0.055,
+      "part_theme": 1.0
+    }
+  ]
+}

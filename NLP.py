@@ -173,7 +173,7 @@ DOMAIN_STOP = {
     "patient", "patients", "study", "studies", "result", "results", "conclusion", "conclusions",
     "method", "methods", "background", "objective", "aim", "use", "used", "using", "included",
     "associated", "compared", "group", "groups", "analysis", "showed", "found", "high", "low",
-    "year", "years", "case", "cases", "significant", "significantly", "data", "ci", "vs",
+    "year", "years", "case", "cases", "significant", "significantly", "data", "ci", "vs", "sub","sup"
 }
 STOP = sorted(ENGLISH_STOP_WORDS | DOMAIN_STOP)
 
@@ -187,6 +187,45 @@ H = nmf.components_
 NOMS = {k: f"T{k}: " + ", ".join(mots[H[k].argsort()[::-1][:3]]) for k in range(N_TOPICS)}
 df["topic"] = W.argmax(axis=1)
 df["topic_nom"] = df["topic"].map(NOMS)
+
+# --- Export d'un fichier JSON par thème (Top 5 des articles) ---
+import json
+
+TOPICS_DIR = Path("top5_themes")
+TOPICS_DIR.mkdir(exist_ok=True)
+
+W_somme = W.sum(axis=1) + 1e-12
+colonnes_doc = [c for c in [COL_TITLE, "year", COL_ABSTRACT] if c and c in df.columns]
+
+for k in range(N_TOPICS):
+    poids = W[:, k]
+    part = poids / W_somme
+    seuil = np.quantile(poids, 0.95)
+
+    sous_df = df.loc[poids >= seuil, colonnes_doc].copy()
+    sous_df["year"] = sous_df["year"].astype(int)
+    sous_df["poids_nmf"] = poids[poids >= seuil].round(4)
+    sous_df["part_theme"] = part[poids >= seuil].round(4)
+
+    top5_k = sous_df.nlargest(5, ["part_theme", "poids_nmf"]).copy()
+    top5_k.insert(0, "rang", range(1, len(top5_k) + 1))
+
+    contenu_json = {
+        "topic_id": k,
+        "topic_nom": NOMS[k],
+        "mots_cles": mots[H[k].argsort()[::-1][:8]].tolist(),
+        "articles": top5_k.to_dict(orient="records"),
+    }
+
+    chemin_json = TOPICS_DIR / f"top5_T{k}.json"
+    with open(chemin_json, "w", encoding="utf-8") as f:
+        json.dump(contenu_json, f, indent=2, ensure_ascii=False)
+
+print(f"  -> {N_TOPICS} fichiers JSON sauvegardés dans {TOPICS_DIR}/")
+
+
+# Sauvegarde pour réutilisation sans relancer la NMF
+top5_T6_purs.to_json("top5_T6.jsonl", orient="records", lines=True, force_ascii=False)
 
 print("\nThèmes (8 mots les plus forts) :")
 for k in range(N_TOPICS):
@@ -332,3 +371,4 @@ if not prem.empty:
 cols = [c for c in [COL_TITLE, "year", "topic_nom", "n_auteurs"] if c and c in df.columns]
 df[cols].to_csv("pubmed_resultats_simple.csv", index=False)
 print("\n*** TERMINÉ ***  Graphiques dans :", FIG_DIR.resolve())
+# %%

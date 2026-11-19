@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Analyse NMF - T7: infection, virus, hiv</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f4f6f9; color: #1e293b; max-width: 920px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+  .header { background: #0f172a; color: white; padding: 28px 32px; border-radius: 14px; margin-bottom: 24px; }
+  .header .tag { text-transform: uppercase; font-size: 12px; letter-spacing: 1px; color: #38bdf8; font-weight: 700; }
+  .header h1 { margin: 6px 0 14px 0; font-size: 26px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .badge { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .badge.tfidf { background: rgba(255,255,255,0.12); color: #e2e8f0; }
+  .badge.methode { background: #e0f2fe; color: #0369a1; }
+  .synthese { background: white; padding: 24px 28px; border-radius: 12px; border-left: 5px solid #0284c7; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 28px; }
+  .synthese h2 { margin-top: 0; font-size: 18px; color: #0f172a; }
+  .card { background: white; padding: 20px 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 16px; border: 1px solid #e2e8f0; }
+  .card-header { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #64748b; margin-bottom: 8px; }
+  .rank { background: #0f172a; color: white; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+  .year { background: #f1f5f9; color: #334155; font-weight: 600; padding: 2px 8px; border-radius: 6px; }
+  .score { margin-left: auto; }
+  .card h3 { margin: 4px 0 10px 0; font-size: 17px; color: #0f172a; }
+  .card p { margin: 0; color: #334155; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">T7: infection, virus, hiv &bull; PubMed France (1955-2026)</div>
+    <h1>Infections virales émergentes et co-infections chez les immunodéprimés</h1>
+    <div class="badges"><span class="badge tfidf">infection</span><span class="badge tfidf">virus</span><span class="badge tfidf">hiv</span><span class="badge tfidf">viral</span><span class="badge tfidf">covid</span><span class="badge tfidf">infected</span><span class="badge tfidf">covid 19</span><span class="badge tfidf">19</span></div>
+  </div>
+  <div class="synthese">
+    <h2>Synthèse scientifique du thème</h2>
+    <p>Ce thème regroupe des études cliniques et épidémiologiques portant sur les interactions entre différentes infections virales (hépatites B, D, E et SARS-CoV-2) et l&#x27;immunodépression, notamment chez les patients infectés par le VIH ou lors de transmissions intrafamiliales et périnatales.</p>
+    <div class="badges"><span class="badge methode">Co-infection VIH et hépatites virales</span><span class="badge methode">Transmission du SARS-CoV-2</span><span class="badge methode">Hépatite E chez les patients immunodéprimés</span><span class="badge methode">Transmission verticale et intrafamiliale</span><span class="badge methode">Diagnostic moléculaire (RT-PCR)</span></div>
+  </div>
+  <h2>Top 5 des articles les plus significatifs</h2>
+  
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#1</span>
+            <span class="year">2013</span>
+            <span class="score">Poids NMF : <strong>0.0601</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Hepatitis B and E co-primary infections in an HIV-1-infected patient.</h3>
+        <p>Rapport d&#x27;un cas de co-infection autochtone par les virus des hépatites B et E chez un patient séropositif pour le VIH, soulignant la nécessité de tester l&#x27;hépatite E en cas d&#x27;hépatite aiguë.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#2</span>
+            <span class="year">2021</span>
+            <span class="score">Poids NMF : <strong>0.0594</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Household Cases Suggest That Cats Belonging to Owners with COVID-19 Have a Limited Role in Virus Transmission.</h3>
+        <p>Étude épidémiologique montrant que les chats vivant avec des propriétaires atteints de la COVID-19 ont un rôle limité dans la transmission du SARS-CoV-2 au sein du foyer.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#3</span>
+            <span class="year">2020</span>
+            <span class="score">Poids NMF : <strong>0.0576</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Vertical Transmission in Neonates Born to Mothers With Coronavirus Disease 2019 (COVID-19) Pneumonia.</h3>
+        <p>Évaluation du risque de transmission verticale du SARS-CoV-2 chez des nouveau-nés de mères atteintes de pneumonie à COVID-19.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#4</span>
+            <span class="year">2006</span>
+            <span class="score">Poids NMF : <strong>0.0564</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Hepatitis delta virus super-infection in a co-infected patient with the human immunodeficiency virus type 1 and a surface antigen-negative hepatitis B virus variant.</h3>
+        <p>Description d&#x27;une super-infection par le virus de l&#x27;hépatite D chez un patient infecté par le VIH et porteur d&#x27;un variant résistant du virus de l&#x27;hépatite B.</p>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <span class="rank">#5</span>
+            <span class="year">2008</span>
+            <span class="score">Poids NMF : <strong>0.055</strong> &bull; Pureté : <strong>100%</strong></span>
+        </div>
+        <h3>Hepatitis E virus as a newly identified cause of acute viral hepatitis during human immunodeficiency virus infection.</h3>
+        <p>Identification du virus de l&#x27;hépatite E (génotype 3f) comme cause d&#x27;hépatite aiguë chez un patient infecté par le VIH, préconisant le dépistage de l&#x27;HEV chez les immunodéprimés.</p>
+    </div>
+    
+</body>
+</html>
